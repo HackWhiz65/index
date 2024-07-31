@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet"
+  href="style.css">
+  <title>My Login Page</title>
+  
+</head>
+<body>
+  <header>
+    <h3>My Login Page</h3>
+  </header>
+  
+  <form method="POST">
+   <div>
+   <label for="fname" class="fn">First Name:</label>
+   <input type="text" id="fname" name="fname" placeholder="XXXXX" required>
+   </div>
+
+    <br>
+
+   <div>
+   <label for="lname" class="ln">Last Name:</label>
+   <input type="text" id="lname" name="lname" placeholder="YYYYY" required>
+   </div>
+
+   <br>
+
+   
+   <div>
+    <label for="email" class="eml">Email:</label>
+    <input type="email" id="email" name="email" placeholder="YYYYY@gmail.com" required>
+    </div>
+
+    <br>
+
+
+   <div>
+    <label for="pass" class="psw">Password:</label>
+    <input type="password" id="pass" name="pass" maxlength="16" required>
+    </div>
+
+    <br>
+
+   
+   <div>
+    <label for="date" class="dte">Date of birth:</label>
+    <input type="date" id="date" name="date" placeholder="DD/MM/YYYY" required>
+    </div>
+
+    <br>
+   
+    <div>
+     <label for="phone" class="phn">Phone no.:</label>
+     <input type="tel" id="phone" name="phone" placeholder="9#########" required>
+     </div>
+ 
+     <br>
+
+     <div>
+      <label>Gender:</label>
+      <input type="radio" id="Male" name="title" value="Gender">
+      <label>Male</label>
+      <input type="radio" id="Female" name="title" value="Gender">
+      <label>Female</label>
+      <input type="radio" id="Others" name="title" value="Gender">
+      <label>Others</label>
+      </div>
+  
+      <br>
+
+      <div>
+        <label for="payment">Payment:</label>
+        <select id="payment" name="payment" required>
+          <option>visa</option>
+          <option>Mastercard</option>
+          <option>Digital Wallet</option>
+        </select>
+
+        </div>
+        <br>
+
+   <div>
+
+    <span1>
+    <button type="reset">Reset</button>
+    </span1>
+
+    <span2>
+    <button type="submit" class="sub">Submit</button>
+    </span2>
+
+   </div>
+
+  </form> 
+
+</body>
+</html>
